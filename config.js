@@ -16,7 +16,7 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@0.9.18",
-    "google/material-design-lite": "github:google/material-design-lite@1.1.3",
+    "google/material-design-lite": "github:DarienFord/material-design-lite@master",
     "jquery": "github:components/jquery@2.2.1",
     "lodash": "npm:lodash@3.10.1",
     "github:jspm/nodelibs-assert@0.1.0": {
