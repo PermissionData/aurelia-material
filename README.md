@@ -31,7 +31,7 @@ You will write in your views:
 
 And that's all...
 
-`mdl` values are : 
+`mdl` values are :
 
 ```
 [ 'button',
@@ -48,7 +48,8 @@ And that's all...
   'switch',
   'radio',
   'icon-toggle',
-  'checkbox' ]
+  'checkbox',
+  'snackbar' ]
 ```
 Some MDL elements are not in the list because we don't have to register them, so we can use them as it.
 
@@ -67,7 +68,7 @@ Some MDL elements are not in the list because we don't have to register them, so
   <body aurelia-app="main">
   ...
 ```
-  
+
 3. Update  `main.js` in your `src` folder with following content:
 
   ```javascript
@@ -81,10 +82,10 @@ Some MDL elements are not in the list because we don't have to register them, so
     aurelia.start().then(a => a.setRoot());
   }
    ```
-  
+
 4. Include material design css in your `index.html`
-  
-  
+
+
   ```html
       <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
 ```
@@ -92,4 +93,3 @@ Some MDL elements are not in the list because we don't have to register them, so
 
 
 See online [Demo](http://redpelicans.github.io/aurelia-material-sample/)
-  
